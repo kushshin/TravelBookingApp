@@ -9,7 +9,7 @@ function Home() {
 
   useEffect(() => {
     axios
-      .get("http://localhost:3001/api/experiences")
+      .get("https://travelbookingapp.onrender.com/api/experiences")
       .then((res) => {
         setExperiences(res.data);
         setFiltered(res.data); 

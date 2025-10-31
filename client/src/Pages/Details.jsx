@@ -17,7 +17,7 @@ const Details = () => {
  
   const getExperience = async () => {
     try {
-      const res = await axios.get(`http://localhost:3001/api/experiences/${id}`);
+      const res = await axios.get(`https://travelbookingapp.onrender.com/api/experiences/${id}`);
       setExp(res.data);
     } catch (error) {
       console.error("Error fetching experience:", error);

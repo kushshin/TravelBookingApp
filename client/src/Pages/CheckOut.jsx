@@ -49,7 +49,7 @@ function Checkout() {
 
     setLoading(true);
     try {
-      const res = await axios.post("http://localhost:3001/api/bookings", {
+      const res = await axios.post("https://travelbookingapp.onrender.com/api/bookings", {
         experienceId: experience._id,
         userName: form.name,
         email: form.email,

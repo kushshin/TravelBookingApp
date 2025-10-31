@@ -1,6 +1,6 @@
 
-import BookingModel from "../models/BookingModel.js";
-import ExperienceModel from "../models/ExperienceModel.js";
+import BookingModel from '../Models/BookingModel.js'
+import ExperienceModel from "../Models/ExperienceModel.js";
 
 export const createBooking = async (req, res) => {
  
